@@ -19,11 +19,7 @@ Wrap up this simplicity in a way that is designed to be deployed on a RaspberryP
 You'll need a Raspberry Pi running Rasbian.
 
 From the Pi, do this:
- 1. wget https://github.com/mattymcfatty/HoneyPi/archive/master.zip
- 2. unzip master.zip
- 3. cd HoneyPi-master
- 4. chmod +x *.sh
- 4. sudo ./honeyPiInstaller.sh
- 5. Follow the prompts.
- 
-Please note: Installing this will do some things to your Raspberry Pi. Most notably, it will change your iptables. Please proceed with caution if you are using this Raspberry Pi for other purposes.
+ 1. git clone https://github.com/adambaczkowski/RaspberryPi-Honeypot
+ 2. cd https://github.com/adambaczkowski/RaspberryPi-Honeypot
+ 3. chmod +x *.sh
+ 4. sudo ./install.sh
